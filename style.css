@@ -1,0 +1,124 @@
+h1{
+    margin: 5%;
+   padding: 5%;
+    font-family: "Fredoka One", sans-serif;
+    align-items: center;
+    color: white;
+    box-shadow: 6px 6px 6px 5px ;
+    border-radius: 50%;
+    font-size: 150%;
+}
+
+.navbutton {
+    color: white;
+    text-decoration: none;
+    display: flex;
+    padding: 12px;
+   
+}
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+    text-decoration: none;
+    display: flex;
+}
+
+main{
+    color: white;
+}
+
+body > header > nav > ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+.top-right-nav{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 10px;
+    list-style: none;
+    display: flexbox;
+}
+
+.nav-list{
+    list-style: none;
+    display: flexbox;
+}
+
+
+.top-left-nav{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 5px;
+    display: flexbox;
+    margin-left: 20px;
+    list-style: none;
+}
+
+header{
+    color: white;
+    padding: 20px;
+    grid-area: header;
+}
+
+section{
+    color: white;
+}
+.container{
+    text-align: center;
+    width: 100%;
+}
+
+.intro{
+    text-align: center;
+}
+
+h2{
+    color: white;
+    text-align: center;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+body > header > nav > ul{
+    list-style: none;
+    text-decoration: none;
+}
+
+
+form{
+    text-align: center;
+}
+
+label > form {
+    text-align: center;
+}
+
+header{
+    padding: 16x;
+    text-align: center;
+    grid-area: header;
+}
+
+#main-content{
+    width: 70%;
+    grid-area: main;
+}
+
+#grid-container{
+    display: grid;
+    grid-template-areas:
+    "header header"
+    "menu main"
+    "footer footer"
+    ;
+    grid-template-columns: 1fr 6fr;
+}
+
+#footer-ul> div > li {
+    margin-left: 12px;
+    }
